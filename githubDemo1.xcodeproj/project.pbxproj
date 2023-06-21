@@ -14,6 +14,8 @@
 		0481957D2A42B6D800B5BE5A /* githubDemo1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0481957B2A42B6D800B5BE5A /* githubDemo1.xcdatamodeld */; };
 		0481957F2A42B6E000B5BE5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0481957E2A42B6E000B5BE5A /* Assets.xcassets */; };
 		048195822A42B6E000B5BE5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048195802A42B6E000B5BE5A /* LaunchScreen.storyboard */; };
+		0481958D2A42B78F00B5BE5A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481958B2A42B78F00B5BE5A /* HomeViewController.swift */; };
+		0481958E2A42B78F00B5BE5A /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0481958C2A42B78F00B5BE5A /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		0481957E2A42B6E000B5BE5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048195812A42B6E000B5BE5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		048195832A42B6E000B5BE5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0481958B2A42B78F00B5BE5A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0481958C2A42B78F00B5BE5A /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +62,34 @@
 		048195712A42B6D800B5BE5A /* githubDemo1 */ = {
 			isa = PBXGroup;
 			children = (
+				048195892A42B72800B5BE5A /* controllers */,
 				048195722A42B6D800B5BE5A /* AppDelegate.swift */,
 				048195742A42B6D800B5BE5A /* SceneDelegate.swift */,
+				048195832A42B6E000B5BE5A /* Info.plist */,
+				0481957B2A42B6D800B5BE5A /* githubDemo1.xcdatamodeld */,
+				0481958A2A42B74D00B5BE5A /* aapputils */,
+			);
+			path = githubDemo1;
+			sourceTree = "<group>";
+		};
+		048195892A42B72800B5BE5A /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0481958B2A42B78F00B5BE5A /* HomeViewController.swift */,
+				0481958C2A42B78F00B5BE5A /* HomeViewController.xib */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		0481958A2A42B74D00B5BE5A /* aapputils */ = {
+			isa = PBXGroup;
+			children = (
 				048195762A42B6D800B5BE5A /* ViewController.swift */,
 				048195782A42B6D800B5BE5A /* Main.storyboard */,
 				0481957E2A42B6E000B5BE5A /* Assets.xcassets */,
 				048195802A42B6E000B5BE5A /* LaunchScreen.storyboard */,
-				048195832A42B6E000B5BE5A /* Info.plist */,
-				0481957B2A42B6D800B5BE5A /* githubDemo1.xcdatamodeld */,
 			);
-			path = githubDemo1;
+			path = aapputils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +153,7 @@
 				048195822A42B6E000B5BE5A /* LaunchScreen.storyboard in Resources */,
 				0481957F2A42B6E000B5BE5A /* Assets.xcassets in Resources */,
 				0481957A2A42B6D800B5BE5A /* Main.storyboard in Resources */,
+				0481958E2A42B78F00B5BE5A /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0481958D2A42B78F00B5BE5A /* HomeViewController.swift in Sources */,
 				048195772A42B6D800B5BE5A /* ViewController.swift in Sources */,
 				0481957D2A42B6D800B5BE5A /* githubDemo1.xcdatamodeld in Sources */,
 				048195732A42B6D800B5BE5A /* AppDelegate.swift in Sources */,
